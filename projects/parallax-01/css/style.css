@@ -1,0 +1,19 @@
+body{
+ height: 2000px;
+ background: navy url(../img/deepsea.jpg) top center no-repeat fixed;
+ background-size: cover;
+}
+
+#bubbles1, #bubbles2{
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ position: fixed;
+ z-index: -1;
+ background: url(../img/bubbles1.png) 5% 50% no-repeat;
+}
+ 
+#bubbles2{
+ background: url(../img/bubbles3.png) 95% 90% no-repeat;
+}
