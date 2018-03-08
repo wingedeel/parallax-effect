@@ -1,3 +1,6 @@
+// Based on
+// Similar to: https://codepen.io/ravenwilde/pen/ehiny	
+
 // Create cross browser requestAnimationFrame method:
 window.requestAnimationFrame = window.requestAnimationFrame
  || window.mozRequestAnimationFrame

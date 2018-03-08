@@ -1,7 +1,10 @@
 body{
- height: 2000px;
- background: navy url(../img/deepsea.jpg) top center no-repeat fixed;
+ height: 1000px;
+ background: navy url(../img/deepsea-sml.png) top center no-repeat fixed;
  background-size: cover;
+}
+
+#container{
 }
 
 #bubbles1, #bubbles2{
@@ -11,9 +14,9 @@ body{
  left: 0;
  position: fixed;
  z-index: -1;
- background: url(../img/bubbles1.png) 5% 50% no-repeat;
+ background: url(../img/bubbles-sml.png) 5% 50% no-repeat;
 }
  
 #bubbles2{
- background: url(../img/bubbles3.png) 95% 90% no-repeat;
+ background: url(../img/bubbles-sml.png) 45% 30% no-repeat;
 }
