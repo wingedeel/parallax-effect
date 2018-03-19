@@ -1,0 +1,49 @@
+body{
+ height: 1000px;
+ background: navy url(../img/bird-bg-sml.jpg) top center no-repeat fixed;
+ background-size: cover;
+}
+
+#container{
+	position: relative;
+  height: 600px;
+  border:1px solid red;
+  width:50%;
+  background: navy url(../img/bird-bg-sml.jpg) top left no-repeat fixed;
+  background-size: auto 600px;
+  overflow:hidden;
+  margin-left:3rem;
+ 
+ 
+  /*background:
+    image: url(../img/bird-bg-sml.jpg)
+    size: auto 600px
+    position: top center
+    attachment: fixed
+  overflow: hidden*/
+
+}
+
+#back{
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 100px;
+ position: absolute;
+ background: url(../img/back-bird.png) 5% 50% no-repeat;
+}
+
+#fore{
+ width: 100%;
+ height: 100%;
+ top: 130px;
+ left: 0;
+ position: absolute;
+ background: url(../img/fore-bird-sml.png) 5% 50% no-repeat;
+}
+
+
+ 
+/*#bubbles2{
+ background: url(../img/bubbles-sml.png) 45% 30% no-repeat;
+}*/
