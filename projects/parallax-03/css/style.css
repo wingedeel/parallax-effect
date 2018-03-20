@@ -2,40 +2,30 @@ body{
  height: 2000px;
 }
 
-#container{
-	position: relative;
-  top: 20%;
-  height: 2000px;
-  width:50%;
-  background-color: grey;
- /* background-image: url(../img/bird-bg-sml.jpg);
-  
-  background-size: auto 600px;
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-attachment: fixed;*/
+.container {
+  width:80%;
+  margin: 20rem auto;
+}
 
+.tile {
+  position: relative;
+    width:536px;
+    height:500px;
+    overflow:hidden;
+}
+
+/* Mobile Content */
+#back {
+  position: absolute;
+  width:100%;
+  height: 933px;
+   overflow:hidden;
+}
+
+/* Mobile Phone */
+#fore{ 
+  position: absolute;
+  width:100%;
+  height: 672px;
   overflow:hidden;
-  margin-left:3rem;
-}
-
-#back{
- width: 100%;
- height: 100%;
-  /*height:1188px;*/
- top: 0;
- left: 0px;
- position: absolute;
- background: url(../img/tile1/mobile-content.png) 5% 50% no-repeat;
- background-size: auto auto;
-}
-
-#fore{
- width: 100%;
- height: 100%;
- top: 145px;
- left: 0;
- position: absolute;
- background: url(../img/tile1/mobile-phone.png) 5% 50% no-repeat;
- background-size: auto auto;
 }

@@ -2,72 +2,42 @@ body{
  height: 2000px;
 }
 
-/*#container{
-	position: relative;
-  top: 20%;
-  height: 600px;
-  width:50%;
-  background-image: url(../img/bird-bg-sml.jpg);
-  background-color: grey;
-  background-size: auto 600px;
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  overflow:hidden;
-  margin-left:3rem;
-}
-
-#back{
- width: 100%;
- height: 100%;
- top: 0;
- left: 100px;
- position: absolute;
- background: url(../img/back-bird.png) 5% 50% no-repeat;
-}
-
-#fore{
- width: 100%;
- height: 100%;
- top: 145px;
- left: 0;
- position: absolute;
- background: url(../img/fore-bird-sml.png) 5% 50% no-repeat;
-}
-*/
-
-/*------------------*/
 #container{
   position: relative;
-  height: 600px;
+  height: 540px;
   background-image: url(../img/bird-bg-sml.jpg);
   background-repeat: no-repeat;
-  background-size: auto 600px;
-  background-position: top center;
+  background-size:auto;
+  /*background-size: auto 600px;*/
+  /*background-position: top center;*/
   background-attachment: fixed;
   overflow: hidden;
-  margin-top:5rem ;
+  border:1px solid red;
 }
 
 
 #fore{
-  width: 960px;
-  height: 733px;
   background-image: url(../img/fore-bird.png);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  /*background-position: right bottom;*/
+
   position: absolute;
-  left: 0%;
-  top: 600px;
+  /*left: 0%;*/
+  /*top: 600px;*/
+  top: 200px;
+
+  width: 960px;
+  height: 733px;
 }
 
 #back{
-  width: 960px;
-  height: 298px;
   background-image: url(../img/back-bird.png);
   background-repeat: no-repeat;
-  background-position: top left;
+  /*background-position: top left;*/
+  
   position: absolute;
-  left: 50%;
+  /*left: 50%;*/
+
+  width: 960px;
+  height: 298px;
 }

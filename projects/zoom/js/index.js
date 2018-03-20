@@ -9,7 +9,7 @@ theWindow.scroll(function() {
 
 function zoom(){
 	var scrollPos = theWindow.scrollTop();
-	if (scrollPos>30 && scrollPos<40){
+	if (scrollPos>30 && scrollPos<100){
 		img.style.transform = "scale(1.2)";
 	}
 }

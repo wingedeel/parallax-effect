@@ -14,8 +14,8 @@ function parallaxScroll(){
  var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically 
  // back.style.top = -scrolltop * .2 + 'px' // move image at 20% of scroll rate
  // fore.style.top = -scrolltop * .5 + 'px' // move image at 50% of scroll rate
- back.style.top = (0-(scrolltop*.5)) + 'px'
- fore.style.top = (0-(scrolltop*.2)) + 'px'
+ back.style.top = (0-(scrolltop*.2)) + 'px'
+ fore.style.top = (0-(scrolltop*.1)) + 'px'
 }
  
 window.addEventListener('scroll', function(){ // on page scroll

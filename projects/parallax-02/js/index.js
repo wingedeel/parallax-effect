@@ -18,7 +18,7 @@ function parallaxScroll(){
  fore.style.top = (0-(scrolltop*.5)) + 'px'
 }
  
-window.addEventListener('scroll', function(){ // on page scroll
- requestAnimationFrame(parallaxScroll) // call parallaxbubbles() on next available screen paint
-}, false)
+// window.addEventListener('scroll', function(){ // on page scroll
+//  requestAnimationFrame(parallaxScroll) // call parallaxbubbles() on next available screen paint
+// }, false)
  
